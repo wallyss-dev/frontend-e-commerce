@@ -1,51 +1,101 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>e-commerce</title>
-</head>
-<body>
-    
-    <header>
-        <h1>E-commerce</h1>
-        <h2>O melhor para o seu negócio</h2>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nossos Serviços</a></li>
-                <li><a href="#">Agende um Atendimento</a></li>
-            </ul>
-        </nav>
-    </header>
+<doctype html>
+    <html lang="pt-BR">
 
-    <section>
-        <div>
-            <h2>Cuidando do seu negócio</h2>
-            <p>Um suporte completo e atendimento especializado</p>
-        </div>
-    </section>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>e-commerce</title>
 
+        <!--Link para arquivo com css-->
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-    <main>
-        <section>
-            <h2>Sobre nós</h2>
-            <p>Bem-vindo a melhor plataforma Saas para suprir o seu e-commerce</p>
-        </section>
+    <body>
 
-        <section>
-            <h2>Nossos Serviços</h2>
+        <header class="cabeca">
+            <h1>e-commerce</h1>
+
+            <nav>
+
+                <!--Menu de navegação-->
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Servicos</a></li>
+                    <li><a href="#">Contatos</a></li>
+
+                    <li><a href="" target="_blanck">Pesquisa</a></li>
+                </ul>     
+            </nav>
+        </header>
+
+        <section class="hero">
             <div>
-                <div>
-                    <h3></h3>
-                    <p></p>
+                <h2>Testando</h2>
+                <p>Testando aqui</p>
 
-                </div>
             </div>
         </section>
-    </main>
 
-    <footer>
-    </footer>
-</body>
-</html>
+        <main>
+            <section class="secao" id="sobre">
+                <h2>Sobre nós</h2>
+
+                <p>O melhor site para vendas online
+
+                </p>
+            </section>
+
+            <section class="secao" id="servico">
+                <h2>Nossos servicos</h2>
+                <div class="container-servico">
+                    <!--Primeira box-->
+                    <div class="servico">
+                        <h3>Mentorias</h3>
+                        <p>Atendimentos</p>
+                    </div>
+
+                    <!--Segunda Box-->
+                    <div class="servico">
+                        <h3>Exemplos de vendas</h3>
+                        <p>Passo a Passo</p>
+                    </div>
+
+                    <!--Terceira box-->
+                    <div class="servico">
+                        <h3>Fazendo acontecer</h3>
+                        <p>Resultados</p>
+                    </di>
+                </div>
+            </section>
+
+            <secton class="secao" id="contato">
+                <h2>Agente o atendimento</h2>
+                <p>Testes</p>
+
+                <!--Tabela-->
+
+                <form action="">
+                    <input type="text" name="nome" id="nome" placeholder="nome">
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                    <input type="text" name="assunto" id="assunto" placeholder="assunto">
+                    <textarea name="mensagem" id="mensagem" plaholder="Digite aqui"></textarea>
+                    <button type="subit" class="bnt-enviarForm">enviar</button>
+                
+                </form>
+
+            </secton>
+
+        </main>
+
+
+        <footer>
+
+            <p>&copy;2026 E-commerce & crescimento</p>
+
+        </footer>
+
+
+    </body>
+
+    </html>
