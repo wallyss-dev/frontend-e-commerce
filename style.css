@@ -9,53 +9,54 @@
 }
 
 *{
-    margin: ;
-    padding: ;
-    box-sizing: ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    font-family: ;
-    background: ;
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--cinza);
 }
 
 .cabeca{
-    background-color: 
-    color: ;
-    text-align: ;  
-    padding: ;
+    background-color: var(--azul-claro);
+    color: var(--branco);
+    text-align: center;  
+    padding: 20px;
 }
 
 nav ul{
-    list-style: ;
-    margin-top: ;
+    list-style: nome;
+    margin-top: 10px;
 }
 
 nav li{
-    display: ;
-    margin: ;
-    font-weight: ;
+    display: inline;
+    margin: 0 10px;
+    font-weight: bold;
 }
 
 nav a:hover{
-    opacity: ;
+    opacity: 0.5;
 }
 
 .hero{
-    background- imagem: url();
-    padding: ;
-    background-size: ;
-    color: ;
-    text-align: ;
+    background-imagem: url();
+    padding: 200px 20px;
+    background-size: cover;
+    background-position: center;
+    color: var(--branco);
+    text-align: center;
 }
 
 .hero h2{
-    font-size: ;
-    margin-bottom: ;
+    font-size: 38px;
+    margin-bottom: 15px;
 }
 
 .hero p{
-    font-size: ;
+    font-size: 20px;
 }
 
 .secao{
@@ -80,17 +81,17 @@ nav a:hover{
 }
 
 .servico:hover{
-    background: ;
-    transform: ;
+    background: var(--azul-hover-card);
+    transform: translateY(5px);
 }
 
 .servico h3{
-    color: ;
-    margin-bottom: ;
+    color: var(--azul);
+    margin-bottom: 10px;
 }
 
 form{
-    margin-top: ;
+    margin-top: 20px;
 }
 
 input, textarea{
@@ -104,11 +105,7 @@ input, textarea{
 }
 
 textarea{
-    background: ;
-    padding: ;
-    border-radius: ;
-    border: ;
-    cursor: ;
+    resize: none;
 }
 
 .bnt-enviarForm{
@@ -120,8 +117,8 @@ textarea{
 }
 
 .bnt-enviarForm:hover{
-    background: ;
-    transition: ;
+    background: var(--verde-whatsapp);
+    transition: 0.3s;
 }
 
 footer{
