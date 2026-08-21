@@ -9,7 +9,34 @@
 }
 
 *{
-    margin: 
-    padding: 
-    box-sizing
+    margin: ;
+    padding: ;
+    box-sizing: ;
+}
+
+body{
+    font-family: ;
+    background: ;
+}
+
+.cabeca{
+    background-color: 
+    color: ;
+    text-align: ;  
+    padding: ;
+}
+
+nav ul{
+    list-style: ;
+    margin-top: ;
+}
+
+nav li{
+    display: ;
+    margin: ;
+    font-weight: ;
+}
+
+nav a:hover{
+    opacity: ;
 }
