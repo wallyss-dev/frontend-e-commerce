@@ -40,3 +40,94 @@ nav li{
 nav a:hover{
     opacity: ;
 }
+
+.hero{
+    background- imagem: url();
+    padding: ;
+    background-size: ;
+    color: ;
+    text-align: ;
+}
+
+.hero h2{
+    font-size: ;
+    margin-bottom: ;
+}
+
+.hero p{
+    font-size: ;
+}
+
+.secao{
+    color: ;
+    margin-bottom: ;
+}
+
+.secao p{
+    line-height: ;
+}
+
+.container-servicos{
+    margin-top: ;
+}
+
+.servico{
+    background: ;
+    margin-top: ;
+    padding: ;
+    border-radius: ;
+    transition: ;
+}
+
+.servico:hover{
+    background: ;
+    transform: ;
+}
+
+.servico h3{
+    color: ;
+    margin-bottom: ;
+}
+
+form{
+    margin-top: ;
+}
+
+input, textarea{
+    width: ;
+    margin-top: ;
+    padding: ;
+    border-radius: ;
+    border: ;
+    color: ;
+    font-size: ;
+}
+
+textarea{
+    background: ;
+    padding: ;
+    border-radius: ;
+    border: ;
+    cursor: ;
+}
+
+.bnt-enviarForm{
+    background: ;
+    padding: ;
+    border-radius: ;
+    border: ;
+    cursor: ;
+}
+
+.bnt-enviarForm:hover{
+    background: ;
+    transition: ;
+}
+
+footer{
+    background: ;
+    padding: ;
+    text-align: ;
+    color: ;
+    margin-top: ;
+}
